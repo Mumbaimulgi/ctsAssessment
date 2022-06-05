@@ -60,19 +60,19 @@ exports.config = {
         maxInstances: 1,
         browserName: 'chrome',
         acceptInsecureCerts: true,
-            "alwaysMatch":{   'goog:chromeOptions': {
-
+            'goog:chromeOptions': {
                 args: [
                     '--start-maximized',
-                    // '--user-data-dir=C:/Users/Mohanraj Kaliannan/AppData/Local/Google/Chrome/User Data/',
-                    // '--profile-directory=Default',
+                    // '--user-data-dir=C:/Users/Mohanraj Kaliannan/veryNewRepo/customconfig/',
+                    // '--profile-directory=Default'
                 ],
-                prefs: {
-                    "profile.default_content_setting_values.cookies": 1,
-                    "profile.cookie_controls_mode": 0
-                }
+                // prefs: {
+                //     "profile.default_content_setting_values.cookies": 1,
+                //     "profile.cookie_controls_mode": 0
+                // }
+            }
+    },
 
-            }}},
     ],
     //
     // ===================

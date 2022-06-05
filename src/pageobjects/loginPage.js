@@ -24,9 +24,9 @@ class LoginPage{
         await commonActions.clickElement(this.elements.continueButton);
     }
 
-    async checkpoint()
+    async verifyMessageBox()
     {
-        
+        await assertion.checkElementPresence(this.elements.boxText);
     }
 
 

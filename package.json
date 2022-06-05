@@ -1,18 +1,16 @@
 {
-  "name": "ctsassessment_js",
+  "name": "cts_assessment",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sky Digital Automation Tester Remote Test",
   "main": "index.js",
   "scripts": {
     "test": "npx wdio"
   },
-  "author": "",
+  "author": "MOHANRAJ KALIANNAN",
   "license": "ISC",
   "dependencies": {
     "@wdio/cli": "^7.19.7",
-    "allure-commandline": "^2.17.2",
-    "os": "^0.1.2",
-    "path": "^0.12.7"
+    "allure-commandline": "^2.17.2"
   },
   "devDependencies": {
     "@babel/core": "^7.18.2",

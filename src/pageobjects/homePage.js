@@ -42,7 +42,7 @@ class homePage  {
         }
        else
        {
-            console.log("Cookies of sky is not appeared");
+            console.log("Allow Cookie Dialog box is not appeared");
        }
     }
 
