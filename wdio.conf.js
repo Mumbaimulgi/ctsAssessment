@@ -57,21 +57,16 @@ exports.config = {
     capabilities: [
         {
 
-        maxInstances: 1,
-        browserName: 'chrome',
-        acceptInsecureCerts: true,
+            maxInstances: 1,
+            browserName: 'chrome',
+            acceptInsecureCerts: true,
             'goog:chromeOptions': {
                 args: [
                     '--start-maximized',
-                    // '--user-data-dir=C:/Users/Mohanraj Kaliannan/veryNewRepo/customconfig/',
-                    // '--profile-directory=Default'
                 ],
-                // prefs: {
-                //     "profile.default_content_setting_values.cookies": 1,
-                //     "profile.cookie_controls_mode": 0
-                // }
-            }
-    },
+
+            },
+        }
 
     ],
     //

@@ -106,25 +106,4 @@ module.exports = {
     },
 
 
-
-
-    async elementsList(elements)
-    {
-        try {
-            let eleList = await $$(elements);
-            return eleList;
-        } catch (err) {
-            console.log("problem in Elementlist method");
-            throw err
-        }
-    },
-
-
-    async elementsLength(elementsLi)
-    {
-        let eleList = await this.elementsList(elementsLi);
-        let lengthOfElementList = await eleList.length;
-        return lengthOfElementList;
-    },
-
 };

@@ -12,11 +12,12 @@ Feature: This feature will make sure that the shop page is navigable and usable.
 
   Scenario Outline: User sees tiles on the shop page
     Given I am on the home page in <Env> Environment
+    Then Set cookie for login functionality
     When I try to sign in with invalid credentials - "<invalidEMail>"
 
     Examples:
-      | Env  | invalidEMail            |
-      | Live | mohanrajk.uk@gmail.com |
+      | Env  | invalidEMail     |
+      | Live | tstykd@text.com |
 
 
   Scenario: User sees a list of deals on the deals page
